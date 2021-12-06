@@ -8,16 +8,18 @@ body {
     --color-web:red;
 }
 #box1 {
-    width: auto;
+    width: 100%;
     height: 30px;
     background:#7f8c8d;
-    border-radius: 5px;
     font-size: 16px;
     align-items: center;
     justify-content: center;
     display: flex;
     font-style: italic;
     font-weight: bold;
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
 }
 #box1:hover {
     background: #ff0000;
@@ -32,7 +34,7 @@ h1::first-letter {
     font-size: 70px;
 }
 h1 {
-    margin:0;
+    margin-top :40px;
 
     color: dimgray;
 }
@@ -42,7 +44,6 @@ h1 {
     height: 100px;
     margin-left: 130px;
     padding: 30px;
-    border-radius: 30px;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -51,18 +52,20 @@ h1 {
 }
 .head {
     background:#16a085 ;
-    width: 60px;
-    height: 30px;
+    width: 100%;
+    height: 60px;
     align-items: center;
     display: flex;
     justify-content: center;
     font-weight: bold;
-    border-radius: 5px;
-    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    ;
 }
 .p2 {
     margin-left: 100px;
-    bottom: 30px;
+    bottom: 100px;
 }
 .p3
  {
@@ -73,10 +76,10 @@ h1 {
     margin-left: 300px;
     bottom: 90px;
 }
-.p1:active {
+.p1:hover {
     background:url(https://scontent.fvca1-4.fna.fbcdn.net/v/t39.30808-6/251748940_614199763346313_1425158991376596497_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=_USxlgc-050AX_GtCG2&_nc_ht=scontent.fvca1-4.fna&oh=9492c3dcae2d8ca338798579d178969a&oe=61B3E9CD);
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 600px;
     background-size: contain;
     background-repeat:no-repeat;
 }
