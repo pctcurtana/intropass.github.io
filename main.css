@@ -1,3 +1,6 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
 .register {
     color: green;
 }
@@ -93,4 +96,7 @@ h1 {
     position: relative;
     left: 250px;
     top: 70px;
+}
+body {
+    background:#a29bfe;
 }
