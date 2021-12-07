@@ -17,6 +17,7 @@
 }
 
 #header {
+    width: 100%;
     height: 50px;
     background-color: #ff7675;
     position: fixed;
@@ -24,15 +25,14 @@
 
 #nav li {
     display: inline-block;
-    float: right;
     font-style: bold;
+    float: right;
 }
 #nav li a {
     color: antiquewhite;
     text-decoration: none;
-    line-height:20px;
+    line-height:50px;
     padding: 15px;
-    float: right;
     
 }
 
@@ -50,18 +50,18 @@ html {
     color: black;
     background-color: #bdc3c7;
 }
-#pt {
+#nav .pt {
     font-size:30px;
-    font-weight: 1000;
+    font-weight: 900;
     color: antiquewhite;
-    text-decoration: none;
-    padding: 5px;
-    margin-right: 700px;
+    float: left;
+    display: inline-block;
+    margin: 5px 0px 0px 20px;
 }
 #nav .user {
-    font-size: 28px;
+    font-size: 26px;
 }
-#pt:active {
+.pt:active {
     background: url(https://scontent.fvca1-3.fna.fbcdn.net/v/t1.6435-9/140508573_508975383834225_4451601625062882814_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=5zqZ1QL0GtoAX_-adrq&_nc_ht=scontent.fvca1-3.fna&oh=9203090d55cacab5f3971b5e32076ede&oe=61D59F6C);
     width: 500px;
     height: 300px;
