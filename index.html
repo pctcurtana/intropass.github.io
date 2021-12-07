@@ -1,115 +1,41 @@
 <!DOCTYPE html>
-<!-- 
-    h1 - h6   heading tiêu đề từ lớn tới nhỏ
-    p   paragraph viết 1 đoạn văn
-    img  image thêm link hình ảnh
-    a anchor  nhấn vào link khác
-    ul - li  list danh sách
-    table  làm bảng
-    input  ô sệch
-    button  nút tick dấu
-    div  1 phần lớn
-    PRIORITY
-    internal,external : new old
-    inline 1000
-    #id 100
-    .class 10
-    tag 1
-    * 0
-    !importan 10000
- -->
-<html>
-    <head>
-        <title>Phạm Thật nè</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="main.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet"> 
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
 
-    <body>
-        <div class="head p1">Nút gái xinh</div>
-           <!-- <div class="head p2" >HOME</div>
-                <div class="head p3">SKILLS</div>
-                    <div class="head p4">ABOUT</div> -->
-        ĐỪNG CÓ BẤM VÀO MẤY NÚT TRÊN ĐM         
-        <div class="body"></div>
-        <h1>Welcome to Dảrk Web</h1>
-        <img width="200" title="cái đm nhà mày thấy tao chưa" src="https://scontent.fvca1-3.fna.fbcdn.net/v/t1.6435-1/p160x160/140508573_508975383834225_4451601625062882814_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=5zqZ1QL0GtoAX_-adrq&_nc_ht=scontent.fvca1-3.fna&oh=3a68e1122fa7ea68a09195dc2560cd03&oe=61D2ABE2" alt="Ảnh tao chứ ai">
-        <p>Chào các mày tao là Phạm Thật OKE</p>
-        <a title="facebook tao chứ cc gì" href="https://www.facebook.com/phamthatcuaem" class="hehe"> Bấm vào đây nếu còn chưa biết bố mày là ai </a>
-        <ul> 
-            <div>
-            <li>Ê thằng đbrr đứng lại đây</li>
-            </div>
-            <div>
-            <li>Tao kêu mày đó thằng đbrr</li>
-            </div>
-            <div>
-            <li>Chính là mày đó nhìn ai</li>
-            </div>
-        </ul>
-            Nhập tên mày vào <input placeholder="tài khoản đây nè" type="text">
-        <div>
-            Nhập mật khẩu vào cho bố <input placeholder="nhập mật khẩu dô đm" type="password">
-        </div>   
-        <div>
-            <input class="register" title="Đéo đăng ký được đâu lêu lêu" type="submit" value="Đăng ký">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#"> <i class="ti-info-alt"></i> ABOUT</a></li>
+                <li><a href=""> <i class="ti-headphone-alt"></i> CONTACT</a></li>
+                <li><a href=""> <i class="ti-support"></i> SKILL</a></li>
+                <li><a href=""> <i class="ti-home"></i> HOME</a></li>
+                <li id="pt"> <i class="ti-user"></i> PHẠM THẬT</li>
+            </ul>
+
         </div>
-        <div> 
-            <p> Mày bê đê hay gì </p>
-        </div>   
-            Nữ <input type="radio" name="gender">
-            Nam <input type="radio" name="gender">
-            <label class="hehe">Bê Đê</label><input type="radio" name="gender">
-        </div> 
-        <div>
-            <p>Bao nhiêu lâu nữa thì bán được 1 tỷ gói mè</p> 
-            1 ngày + <input type="checkbox" name="answer">
-            10 năm + <input type="checkbox" name="answer">
-            Cả đời cũng đéo <input type="checkbox" name="answer">
-            Tích hết dấu đi đỡ mắc công <input type="checkbox" name="answer">
+    
+        <div id="slider">
+
         </div>
-        <p>
-            <label>Cha mẹ biết mày bị gay không</label>  
-        <select>
-            <option>Dấu kỹ lắm</option>
-            <option>Không biết</option>
-            <option>Biết chứ</option>
-            <option>Tao méo bị gay okay</option>
-        </select>
-        </p>
-        <div>
-            <table>
-                <tr>
-                    <td>Tên Phim</td>
-                    <td>Số Tập</td>
-                    <td>Diễn Viên</td>
-                </tr>
-                    <p>List film cực cháy : </p>
-                <tr>
-                    <th class="hehe">Anh thợ sữa ống nước may mắn</th>
-                    <th>1024</th> 
-                    <th class="hehe">Maria Ozawa</th>
-                </tr>
-                <tr>
-                    <th class="hehe">Cô chủ nhà xinh đẹp</th>
-                    <th>2048</th>
-                    <th class="hehe">Emi Fukada</th>
-                </tr>
-                <tr>
-                    <th class="hehe">Cô gia sư tốt bụng</th>
-                    <th>4096</th>
-                    <th class="hehe">Yua Mikami</th>
-                </tr>
-            </table>
+
+        <div id="footer">
+        
         </div>
-        <div id="box1" title="Chỉ có thế thoi đó hehe"> @Coppyright by PCT Curtana </div> <br>
-        <div class="box boxone"></div> <br>
-        <div class="box boxtwo"></div> <br>
-        <div class="box boxthree"></div> <br>
-        <div class="box boxfour"></div> <br>
-        <div class="box boxfive"></div> <br>
-    </body>
+
+    </div>
+
+    
+    
+</body>
 </html>

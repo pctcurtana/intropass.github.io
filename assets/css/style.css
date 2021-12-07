@@ -1,0 +1,71 @@
+/*
+    1 Từ ngoài vào trong
+    2 Từ trên xuống dưới
+    -> Tổng quan đến chi tiết
+    1. Vị trí
+    2. Kích thước
+    3. 
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+
+}
+
+#header {
+    height: 50px;
+    background-color: #ff7675;
+    position: fixed;
+}
+
+#nav li {
+    display: inline-block;
+    float: right;
+    font-style: bold;
+}
+#nav li a {
+    color: antiquewhite;
+    text-decoration: none;
+    line-height:20px;
+    padding: 15px;
+    float: right;
+    
+}
+
+#slider {
+
+}
+
+#footer {
+
+}
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+#nav li a:hover {
+    color: black;
+    background-color: #bdc3c7;
+}
+#pt {
+    font-size:30px;
+    font-weight: 1000;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 700px;
+}
+#nav .user {
+    font-size: 28px;
+}
+#pt:active {
+    background: url(https://scontent.fvca1-3.fna.fbcdn.net/v/t1.6435-9/140508573_508975383834225_4451601625062882814_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=5zqZ1QL0GtoAX_-adrq&_nc_ht=scontent.fvca1-3.fna&oh=9203090d55cacab5f3971b5e32076ede&oe=61D59F6C);
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:absolute;
+}
