@@ -52,9 +52,9 @@
 }
 
 #slider {
-    
+    width 100%;
     margin-top: 50px;
-    padding-top: 100%;
+    padding-top: 70%;
     background: url('/assets/img/slider.jpg') center / cover no-repeat;
     position: relative;
 }
