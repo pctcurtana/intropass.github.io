@@ -78,8 +78,44 @@
 }
 
 #content {
-    height: 2000px;
     background: silver;
+    padding: 50px;
+}
+#content .content-section{
+    padding: 50px;
+    background: white;
+    margin-left : auto;
+    margin-right : auto;
+    font-weight: 600;
+    width: 1100px;
+    height: 500px;
+
+}
+#content .content-heading {
+    text-align: center;
+    letter-spacing: 5px;
+}
+#content .content-sologan{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    letter-spacing: 10px;
+}
+#content .about-text {
+    text-align: justify;
+    line-height: 20px;
+}
+#content .member-item {
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+}
+#content .member-img {
+    margin: 20px;
+    border-radius: 15px;
+}
+#content .member-name {
+    font-size: 20px;
+
 }
 
 #footer {
