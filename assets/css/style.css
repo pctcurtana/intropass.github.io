@@ -52,6 +52,7 @@
 }
 
 #slider {
+    width: 100%;
     margin-top: 50px;
     padding-top: 70%;
     background: url('/assets/img/slider.jpg') center / cover no-repeat;
@@ -77,6 +78,7 @@
 }
 
 #content {
+    width: 100%;
     background: silver;
     padding: 50px;
 }
