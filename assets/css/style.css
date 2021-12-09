@@ -52,7 +52,6 @@
 }
 
 #slider {
-    width 100%;
     margin-top: 50px;
     padding-top: 70%;
     background: url('/assets/img/slider.jpg') center / cover no-repeat;
@@ -80,7 +79,6 @@
 #content {
     background: silver;
     padding: 50px;
-    width: 100%;
 }
 #content .content-section{
     padding: 50px;
@@ -100,7 +98,7 @@
 #content .content-sologan{
     text-align: center;
     padding: 20px 0px 20px 0px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 #content .about-text {
     text-align: justify;
@@ -109,6 +107,7 @@
 #content .member-item {
     float: left;
     padding-top: 50px;
+    width: calc(100% / 3);
     text-align: center;
 }
 #content .member-img {
