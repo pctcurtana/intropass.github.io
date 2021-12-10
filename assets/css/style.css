@@ -182,22 +182,18 @@
 .send:hover {
     background: gray;
 }
+.profile {
+    width: 100%;
+}
 #footer {
 
 }
 html {
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 #nav li a:hover {
     color: black;
     background-color: #bdc3c7;
 }
 
-.pt:adctive {
-    background: url(https://scontent.fvca1-3.fna.fbcdn.net/v/t1.6435-9/140508573_508975383834225_4451601625062882814_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=5zqZ1QL0GtoAX_-adrq&_nc_ht=scontent.fvca1-3.fna&oh=9203090d55cacab5f3971b5e32076ede&oe=61D59F6C);
-    width: 500px;
-    height: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:absolute;
-}
