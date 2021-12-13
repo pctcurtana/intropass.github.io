@@ -143,10 +143,55 @@ html {
 }
 
 #content .content-section2 {
-    background: #485460;
+    background: pink;
     margin-top: 50px;
     height: 800px;
     padding: 50PX;
+}
+
+#content .about-text{
+    text-align: justify;
+    line-height: 20px;
+    font-weight : 600;
+
+}
+
+#content .content-section2 .bars {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#content .line {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+#content .html {
+    width: 35%;
+    background: #ff7675;
+    margin-left: 70px;
+}
+#content .css {
+    width: 45%;
+    background: #ff7675;
+    margin-left: 70px;
+}
+#content .js {
+    width: 20%;
+    background: #ff7675;
+    margin-left: 70px;
+}
+
+#content .htmlcss span{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+#content .htmlcss{
+   
 }
 
 #content .content-section3 {
