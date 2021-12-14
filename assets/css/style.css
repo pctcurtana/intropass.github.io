@@ -26,7 +26,7 @@ html {
 }
 
 #header {
-    height: 50px;
+    height: 70px;
     background-color: #ff7675;
     position: fixed;
     top: 0px;
@@ -49,13 +49,14 @@ html {
 #nav li a {
     color: antiquewhite;
     text-decoration: none;
-    line-height:50px;
-    padding: 15px;
+    line-height:70px;
+    padding: 25px;
+    font-size: 17px;
     
 }
 
 #header .pt{
-    line-height:50px;
+    line-height:70px;
     font-size: 28px;
     color:antiquewhite;
     font-weight: 900;
@@ -66,7 +67,7 @@ html {
 
 #slider {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 70px;
     padding-top: 70%;
     background: url('/assets/img/slider.jpg') center / cover no-repeat;
     position: relative;
@@ -85,7 +86,7 @@ html {
 
 }
 
-#slider .text-fake {
+#slider .typing {
     font-weight: bold;
 
 }
@@ -114,19 +115,20 @@ html {
 
 #content .content-sologan{
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
     letter-spacing: 5px;
 }
 
-#content .about-text {
+#content .about-text  {
     text-align: justify;
     line-height: 20px;
+    margin: 30px 70px 0px 70px;
 }
 
 #content .member-item {
     float: left;
     padding-top: 50px;
-    width: calc(100% / 3);
+    width: 33.333333%;
     text-align: center;
 }
 
@@ -144,15 +146,16 @@ html {
 
 #content .content-section2 {
     background: pink;
-    margin-top: 50px;
-    height: 800px;
+    margin-top: 50px ;
+    height: auto;
     padding: 50PX;
 }
 
-#content .about-text{
+#content .content-section2 .about-text{
     text-align: justify;
     line-height: 20px;
     font-weight : 600;
+    margin: 30px 70px 50px 70px;
 
 }
 
@@ -166,22 +169,22 @@ html {
     width: 100%;
     position: relative;
     border-radius: 20px;
+    background: #ff7675;
+    margin-left: 70px
 }
 
 #content .html {
     width: 35%;
-    background: #ff7675;
-    margin-left: 70px;
+    border: 4px solid gray;
 }
 #content .css {
     width: 45%;
-    background: #ff7675;
-    margin-left: 70px;
+    border: 4px solid gray;
 }
 #content .js {
     width: 20%;
-    background: #ff7675;
-    margin-left: 70px;
+    border: 4px solid gray;
+
 }
 
 #content .htmlcss span{
@@ -194,11 +197,16 @@ html {
    
 }
 
-#content .content-section3 {
+#contact .content-section3 {
     background: pink;
-    margin-top: 50px;
     padding: 50px;
     height: 330px;
+    margin-top: 50px;
+   
+}
+
+#contact .content-sologan {
+    margin-bottom: 30px;
 }
 
 .col {
@@ -215,6 +223,8 @@ html {
 .mt-8 {
     margin-top: 5px;
 }
+
+
 .contact-infor {
     font-weight: 600;
     line-height: 1.4;
@@ -226,25 +236,33 @@ html {
     display: inline-block;
 }
 
+.contact-infor p{
+    margin-left: 50px ;
+}
+
 .col-half {
     width: 50%;
+}
+
+.col .row {
+    margin-right: 50px;
 }
 
 .col-full {
     width: 100%;
 }
 
+
 .form-control {
     padding: 8.1px;
     border: 1px solid gray;
     border-radius: 5px;
     width: 100% ;
-    outline-color: #ff7675;
 
 }
 
 .send {
-    margin: 10px;
+    margin: 10px 60px 0px 0px;
     float: right;
     background: #ff7675;
     border: none;
