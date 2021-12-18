@@ -1,0 +1,17 @@
+@media (max-width: 1002px) {
+    .contact-infor p{
+        margin-left: 0px ;
+        display : block;
+    }
+    #nav li {
+        display: block;
+        float:none;
+    }
+    #nav {
+        display: bldock;
+    }
+    #content .member-item {
+        width: 100%;
+    }
+
+}

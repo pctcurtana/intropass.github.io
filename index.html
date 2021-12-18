@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/themify-icons/themify-icons.css">
@@ -13,16 +14,18 @@
     <title>Phạm Thật's Profile</title>
 </head>
 <body>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/masin.js"></script>
     <div id="main">
-        <div id="header">
-            <ul id="nav">
-                <li><a href="#"> <i class="ti-home"></i> HOME</a></li>
-                <li><a href="#skill"> <i class="ti-support"></i> SKILL</a></li>
+        <div id="header">                         
+            <ul id="nav">  
+                <div id="pt"> <i class="ti-menu"></i> PHẠM THẬT</div>             
+                <li><a href="#aboutme"> <i class="ti-info-alt"></i> ABOUT</a></li> 
                 <li><a href="#contact"> <i class="ti-headphone-alt"></i> CONTACT</a></li>
-                <li><a href="#aboutme"> <i class="ti-info-alt"></i> ABOUT</a></li>   
-            </ul>
-            <div class="pt"><i class="ti-user"></i> PHẠM THẬT</div>
+                <li><a href="#skill"> <i class="ti-support"></i> SKILL</a></li> 
+                <li><a href="#"> <i class="ti-home"></i> HOME</a></li>
+                
+            </ul>  
+                    
         </div> 
         <div id="slider">
             <div class="text-slider">
@@ -127,6 +130,26 @@
             <p class="copyright">@Copyright by Phạm Thật</p>
         </div>
 
-    </div>     
+    </div> 
+    <script>
+        var header = document.getElementById('header');
+        var pt = document.getElementById('pt');
+        pt.onclick = function() {
+            var isClosed = header.clientHeight === 70;
+            if (isClosed) {
+                header.style.height = '100%';
+            } else {
+                header.style.height = '70px';
+            }
+        }
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function() {
+                header.style.height = '70px';
+            }
+        }
+    </script>    
 </body>
 </html>

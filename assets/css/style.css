@@ -21,6 +21,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 #main {
 
 }
@@ -33,36 +34,42 @@ html {
     left:0px;
     right: 0px;
     z-index: 1;
+    overflow: hidden;
 }
 
-#nav {
-    display: inline-block;
-    float: right;
+
+.ti-menu {
+    font-size: 26px;
+}
+
+#pt:hover {
+    background: gray;
 }
 
 
 #nav li {
-    display: inline-block;
     font-style: bold;
+    display: inline-block;
+    line-height: 70px;
+    float: right;
+   
 }
 
 #nav li a {
     color: antiquewhite;
     text-decoration: none;
-    line-height:70px;
-    padding: 25px;
-    font-size: 17px;
+    padding: 25px;   
     
 }
 
-#header .pt{
+#pt{
     line-height:70px;
     font-size: 28px;
     color:antiquewhite;
     font-weight: 900;
-    margin-left: 25px;
     cursor: pointer;
-    float: left;
+    display: inline-block;
+    margin-left: 50px
 }
 
 #slider {
