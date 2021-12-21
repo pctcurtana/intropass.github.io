@@ -17,8 +17,9 @@
     <script src="./assets/js/masin.js"></script>
     <div id="main">
         <div id="header">                         
-            <ul id="nav">  
-                <div id="pt"> <i class="ti-menu"></i> PHẠM THẬT</div>             
+            <ul id="nav">
+                <div id="menu"><i class="ti-menu"></i></div>  
+                <div id="pt"><i class="ti-user"></i> PHẠM THẬT</div>             
                 <li><a href="#aboutme"> <i class="ti-info-alt"></i> ABOUT</a></li> 
                 <li><a href="#contact"> <i class="ti-headphone-alt"></i> CONTACT</a></li>
                 <li><a href="#skill"> <i class="ti-support"></i> SKILL</a></li> 
@@ -133,8 +134,8 @@
     </div> 
     <script>
         var header = document.getElementById('header');
-        var pt = document.getElementById('pt');
-        pt.onclick = function() {
+        var menu = document.getElementById('menu');
+        menu.onclick = function() {
             var isClosed = header.clientHeight === 70;
             if (isClosed) {
                 header.style.height = '100%';

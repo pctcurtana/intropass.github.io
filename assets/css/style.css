@@ -42,8 +42,9 @@ html {
     font-size: 26px;
 }
 
-#pt:hover {
-    background: gray;
+#menu:hover {
+    background: silver;
+    color: black;
 }
 
 
@@ -61,7 +62,15 @@ html {
     padding: 25px;   
     
 }
-
+#menu {
+    line-height:70px;
+    font-size: 28px;
+    color:antiquewhite;
+    font-weight: 900;
+    cursor: pointer;
+    display: inline-block;
+    padding : 0px 30px;
+}
 #pt{
     line-height:70px;
     font-size: 28px;
