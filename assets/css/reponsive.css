@@ -27,5 +27,43 @@
     #pt .ti-user {
         display: none;
     }
-
+    #content .member-img {
+        width: 200px;
+        height: auto;
+    }
+    #content .about-text  {
+        margin: 20px 0px 0px 0px ;
+    }
+    #content .content-section{
+        padding: 20px;
+    }
+    #content .content-heading {
+        letter-spacing: -2px;
+    }
+    #content .content-section2 .about-text{ 
+        margin: 20px 0px 0px 0px ;
+    }
+    #content .content-section2 {
+        padding: 20px ;
+    }
+    #content .line {
+        margin-left: 30px;
+        height: 20px;
+    }
+    #content .htmlcss span{
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    #content .html {
+        width: 65%;
+    }
+    #content .css {
+        width: 75%;
+    }
+    #content .js {
+        width: 40%;
+    
+    }
+    
 }
