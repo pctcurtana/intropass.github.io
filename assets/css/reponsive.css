@@ -24,6 +24,9 @@
     #content .member-item {
         width: 100%;
     }
+    #menu {
+        padding: 0px 20px;
+    }
     #pt {
         margin-left: 0px;
     }
@@ -88,7 +91,7 @@
         margin-bottom : 30px;
     }
     .contact-infor p {
-        font-size: 17px;
+        font-size: 15px;
     }
     .col .row {
         margin-right : 0px;
