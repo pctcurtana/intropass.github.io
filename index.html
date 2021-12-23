@@ -19,12 +19,11 @@
         <div id="header">                         
             <ul id="nav">
                 <div id="menu"><i class="ti-menu"></i></div>  
-                <div id="pt"><i class="ti-user"></i> Profile Me</div>             
-                <li><a href="#aboutme"> <i class="ti-info-alt"></i> ABOUT</a></li> 
-                <li><a href="#contact"> <i class="ti-headphone-alt"></i> CONTACT</a></li>
-                <li><a href="#skill"> <i class="ti-support"></i> SKILL</a></li> 
+                <div id="pt"><i class="ti-user"></i> Profile Me</div>                
                 <li><a href="#"> <i class="ti-home"></i> HOME</a></li>
-                
+                <li><a href="#skill"> <i class="ti-support"></i> SKILL</a></li> 
+                <li><a href="#contact"> <i class="ti-headphone-alt"></i> CONTACT</a></li>
+                <li><a href="#aboutme"> <i class="ti-info-alt"></i> ABOUT</a></li>
             </ul>  
                     
         </div> 
@@ -136,11 +135,11 @@
         var header = document.getElementById('header');
         var menu = document.getElementById('menu');
         menu.onclick = function() {
-            var isClosed = header.clientHeight === 70;
+            var isClosed = header.clientHeight === 50;
             if (isClosed) {
                 header.style.height = '100%';
             } else {
-                header.style.height = '70px';
+                header.style.height = '50px';
             }
         }
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
@@ -148,7 +147,7 @@
             var menuItem = menuItems[i];
             
             menuItem.onclick = function() {
-                header.style.height = '70px';
+                header.style.height = '50px';
             }
         }
     </script>    

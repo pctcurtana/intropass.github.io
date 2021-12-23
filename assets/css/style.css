@@ -27,7 +27,7 @@ html {
 }
 
 #header {
-    height: 70px;
+    height: 50px;
     background-color: #ff7675;
     position: fixed;
     top: 0px;
@@ -51,7 +51,7 @@ html {
 #nav li {
     font-style: bold;
     display: inline-block;
-    line-height: 70px;
+    line-height: 50px;
     float: right;
    
 }
@@ -59,12 +59,12 @@ html {
 #nav li a {
     color: antiquewhite;
     text-decoration: none;
-    padding: 25px;   
+    padding: 20px;   
     
 }
 #menu {
-    line-height:70px;
-    font-size: 28px;
+    line-height:50px;
+    font-size: 26px;
     color:antiquewhite;
     font-weight: 900;
     cursor: pointer;
@@ -72,8 +72,8 @@ html {
     padding : 0px 30px;
 }
 #pt{
-    line-height:70px;
-    font-size: 28px;
+    line-height:50px;
+    font-size: 26px;
     color:antiquewhite;
     font-weight: 900;
     cursor: pointer;
@@ -84,7 +84,7 @@ html {
 #slider {
     width: 100%;
     max-wzidth: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
     padding-top: 70%;
     background: url('/assets/img/Thiết\ kế\ không\ tên.png') center / cover no-repeat;
     position: relative;
