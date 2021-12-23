@@ -38,7 +38,7 @@
         margin: 20px 0px 0px 0px ;
     }
     #content .content-section{
-        padding: 20px;
+        padding: 30px;
     }
     #content .content-heading {
         letter-spacing: -2px;
@@ -47,7 +47,7 @@
         margin: 20px 0px 0px 0px ;
     }
     #content .content-section2 {
-        padding: 20px ;
+        padding: 30px ;
         margin-top: 20px;
     }
     #content .content-section3 {
@@ -95,6 +95,7 @@
     }
     .send {
         margin-right: 0px;
+        width: 100%;
     }
     
 }
