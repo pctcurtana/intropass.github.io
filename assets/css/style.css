@@ -214,7 +214,7 @@ html {
 #contact .content-section3 {
     background: pink;
     padding: 50px;
-    height: 330px;
+    height: auto;
     margin-top: 50px;
    
 }
@@ -224,7 +224,6 @@ html {
 }
 
 .col {
-    float: left;
     padding: 0px 10px 0px 10px;
 }
 

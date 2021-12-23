@@ -2,6 +2,9 @@
     #menu {
         display: none;
     }
+    .col {
+        float: left;
+    }
 
 
 }
@@ -28,7 +31,7 @@
         display: none;
     }
     #content .member-img {
-        width: 200px;
+        width: 70%;
         height: auto;
     }
     #content .about-text  {
@@ -45,6 +48,12 @@
     }
     #content .content-section2 {
         padding: 20px ;
+        margin-top: 20px;
+    }
+    #content .content-section3 {
+        margin-top: 20px;
+        padding: 30px;
+        height: 415px;
     }
     #content .line {
         margin-left: 30px;
@@ -64,6 +73,28 @@
     #content .js {
         width: 40%;
     
+    }
+    #content {
+        padding:20px;
+    }
+    .col-half {
+        width: auto;
+        margin-top: 4px;
+    }
+    .col {
+        padding :0px;
+    }
+    .contact-infor {
+        margin-bottom : 30px;
+    }
+    .contact-infor p {
+        font-size: 17px;
+    }
+    .col .row {
+        margin-right : 0px;
+    }
+    .send {
+        margin-right: 0px;
     }
     
 }
