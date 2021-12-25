@@ -86,25 +86,42 @@ html {
     max-wzidth: 100%;
     margin-top: 50px;
     padding-top: 70%;
-    background: url('/assets/img/Thiết\ kế\ không\ tên.png') center / cover no-repeat;
-    position: relative;
+    background: linear-gradient(0, rgba(0, 0, 0, 0.4), rgba(255, 192, 203, 0.5)), 
+    url('/assets/img/Thiết\ kế\ không\ tên.png') center / cover no-repeat ;
 }
 
 #slider .text-slider {
     position: absolute;
-    bottom: 3px;
-    right: 0;
-    left: 0;
-    text-align: center;
+    top: 80px;
+    left: 50px;
+    text-align: left;
+    display: inline-block;
+    font-size: 100%;
 }
 
-#slider .text-main {
-    color: #16a085;
+#slider .text1 {
+    font-size: 34px;
 
 }
+#slider .text2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.namei {
+    color: #ff7675;
+    font-size: 26px;
+    font-weight: 800;
+}
+.text3 {
+    font-size: 26px;
+    font-weight: 800;
+}
 
-#slider .typing {
+#typing {
     font-weight: bold;
+    color: #ff7675;
 
 }
 

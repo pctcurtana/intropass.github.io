@@ -29,10 +29,9 @@
         </div> 
         <div id="slider">
             <div class="text-slider">
-                <h2 class="text-main"></h2>
-                <div>
-                    <span class="typing"></span>
-                </div>
+                <h2 class="text1">HELLO EVERYONE</h2>
+                <div class="text2">My Name Is <span class="namei">PHAM THAT</span></div>
+                <div class="text3">I am a <span id="typing"></span></div>
             </div>
         </div>
         <div id="content"> 
@@ -58,7 +57,7 @@
             </div> 
         <div id="skill">
             <div class="content-section2">
-                <h2 class="content-heading">------MY SKILLS-----</h2>
+                <h2 class="content-heading">------MY SKILLS------</h2>
                 <p class="content-sologan">Trying every day</p>
                 <div class="skill-content">
                     <div class="text-skill">
@@ -131,6 +130,7 @@
         </div>
 
     </div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script>
         var header = document.getElementById('header');
         var menu = document.getElementById('menu');
@@ -149,7 +149,14 @@
             menuItem.onclick = function() {
                 header.style.height = '50px';
             }
-        }
+        };
+        var typing = document.getElementById('typing');
+        var typed = new Typed("#typing", {
+            strings: ["Newbie", "Programming Learners", "Freelancer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
     </script>    
 </body>
 </html>
