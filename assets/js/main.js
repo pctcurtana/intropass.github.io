@@ -1,26 +1,21 @@
-        var header = document.getElementById('header');
-        var menu = document.getElementById('menu');
-        menu.onclick = function() {
-            var isClosed = header.clientHeight === 50;
-            if (isClosed) {
-                header.style.height = '100%';
-            } else {
-                header.style.height = '50px';
-            }
-        }
-        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-        for (var i = 0; i < menuItems.length; i++) {
-            var menuItem = menuItems[i];
-            
-            menuItem.onclick = function() {
-                header.style.height = '50px';
-            }
-        };
-        var typing = document.getElementById('typing');
-        var typed = new Typed("#typing", {
-            strings: ["Newbie", "Programming Learners", "Freelancer"],
-            typeSpeed: 110,
-            backSpeed: 70,
-            loop: true
-        });
-        alert  ('ok')
+var demo = 'Mày xấu vc soi gương lại đi'; // khai bao var
+alert(demo); // display pop-up
+console.log(ok); // in ra console trong dev tool
+
+// toán tử 
+var a = 10 
+var b = 20 
+var c = a + b; 
+console.log(c);
+// a++ ; ++a
+//
+// ++a làm 2 việc
+// việc 1 : +1 cho a, a = a + 1
+// việc 2 : trả về a sau khi được +1
+// a++ làm 3 việc
+// việc 1 : copy lại của biến đó => vẫn bằng chính nó
+// việc 2 : cộng 1 của chính nó => a = a + 1
+// việc 3 : trả về của việc 1
+
+// toán tử gán 
+// a = a + 2 <=> a += 2
