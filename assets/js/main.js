@@ -1,5 +1,19 @@
-var demo = 'Mày xấu vc soi gương lại đi'; // khai bao var
-swal(demo); // display pop-up
+//var demo = 'Mày xấu vc soi gương lại đi'; khai bao var
+Swal.fire({
+    title: 'Mày có thấy Phạm Thật đẹp try không?',
+    showDenyButton: true,
+    showCancelButton: false,
+    confirmButtonText: 'Có',
+    denyButtonText: `Đéo`,
+  }).then((result) => {
+    /* Read more about isConfirmed, isDenied below */
+    if (result.isConfirmed) {
+      Swal.fire('Chọn Đúng Rồi Đó Thằng Lồn!', '', 'success')
+    } else if (result.isDenied) {
+      Swal.fire('Chọn Sai Rồi, Chọn Lại Đi Thằng Ngu!', 'F5 chọn lại hộ bố', 'error')
+    }
+  })
+  
 console.log(ok); // in ra console trong dev tool
 
 // toán tử 
