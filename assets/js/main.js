@@ -1,5 +1,5 @@
 var demo = 'Mày xấu vc soi gương lại đi'; // khai bao var
-alert(demo); // display pop-up
+swal(demo); // display pop-up
 console.log(ok); // in ra console trong dev tool
 
 // toán tử 
