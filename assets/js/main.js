@@ -1,6 +1,7 @@
 //var demo = 'Mày xấu vc soi gương lại đi'; khai bao var
 Swal.fire({
     title: 'Mày có thấy Phạm Thật đẹp try không?',
+    footer: '<a href="">Khuyến nghị chọn Có để còn răng húp cháo</a>',
     showDenyButton: true,
     showCancelButton: false,
     confirmButtonText: 'Có',
