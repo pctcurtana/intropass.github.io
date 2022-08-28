@@ -23,7 +23,7 @@
             <ul id="nav">
                 <div id="menu"><i class="ti-menu"></i></div>  
                 <div id="pt"><i class="ti-user"></i> Profile Me</div>                
-                <li><a href="#"> <i class="ti-home"></i> HOME</a></li>
+                <li id="home" onclick="home()"><a href="#"> <i class="ti-home"></i> HOME</a></li>
                 <li><a href="#skill"> <i class="ti-support"></i> SKILL</a></li> 
                 <li><a href="#contact"> <i class="ti-headphone-alt"></i> CONTACT</a></li>
                 <li><a href="#aboutme"> <i class="ti-info-alt"></i> ABOUT</a></li>
@@ -159,6 +159,9 @@
             backSpeed: 70,
             loop: true
         });
+        function home(){
+            location.replace("https://pctcurtana.github.io/#home");
+        }
     </script>    
 </body>
 </html>

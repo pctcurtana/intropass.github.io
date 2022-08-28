@@ -6,13 +6,13 @@ Swal.fire({
     confirmButtonText: 'Có',
     denyButtonText: `Đéo`,
   }).then((result) => {
-    /* Read more about isConfirmed, isDenied below */
     if (result.isConfirmed) {
       Swal.fire('Chọn Đúng Rồi Đó Thằng Lồn!', '', 'success')
     } else if (result.isDenied) {
       Swal.fire('Chọn Sai Rồi, Chọn Lại Đi Thằng Ngu!', 'F5 chọn lại hộ bố', 'error')
     }
   })
+  
   
 console.log(ok); // in ra console trong dev tool
 
